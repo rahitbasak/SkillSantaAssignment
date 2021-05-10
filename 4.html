@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Javascript program to check the given integer are in range 50-100 or not.</title>
+</head>
+<body>
+    <input type="number" placeholder="Type something..." id="myInput">
+    <button type="button" onclick="getInputValue();">Get Value</button>
+    <script>
+        function getInputValue(){
+            var inputVal = document.getElementById("myInput").value;
+            if (inputVal >= 50 && inputVal <= 100)
+			{
+		   		alert("The Value is in between 50-100. input: " + inputVal);
+			} 
+			else 
+			{
+		   		alert("The Value is not in between 50-100. input: " + inputVal);
+			}
+        }
+     </script>
+</body>
+</html>
